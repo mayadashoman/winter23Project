@@ -2,7 +2,7 @@
   
   Ziyad Ahmed - 900193705
   Mayada Shoman - 900181230
-  Renad ELlKady - 900191378
+  Renad ElKady - 900191378
   _____________________________
 
   The application is a platform in which users areconnected to the service providers, more specifically handymen. 
