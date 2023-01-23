@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+            android:background="@drawable/screen_shot_2023_01_14_at_4_58_40_pm"
+            tools:ignore="RtlCompat" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:onClick="go_tag_elect"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_layout"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageButton
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:foreground="@drawable/idea"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Electricity"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:onClick="go_tag_plum"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_layout"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageButton
+                        android:background="@android:color/transparent"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:foreground="@drawable/tap"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Plumbing"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:clickable="true"
+                    android:onClick="go_tag_carp"
+                    android:background="@drawable/border_layout"
+
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:background="@android:color/transparent"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:foreground="@drawable/tree"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Carpentry"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:clickable="true"
+                    android:onClick="go_tag_paint"
+                    android:background="@drawable/border_layout"
+
+                    android:layout_marginRight="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <ImageButton android:background="@android:color/transparent"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:foreground="@drawable/paint_bucket_1_"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Painting"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:onClick="go_tag_gard"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@drawable/border_layout"
+
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:background="@android:color/transparent"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:foreground="@drawable/tree"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gardining"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/user_location"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
