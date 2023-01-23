@@ -19,3 +19,4 @@
   
   
 
+P.S The database folder is located in the app folder
